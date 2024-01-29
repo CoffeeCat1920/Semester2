@@ -1,0 +1,6 @@
+| Name       |        Marks |
+|------------+--------------|
+| Assignment | 15 = 75 + 75 |
+| MidTerm    |           30 |
+| Final      |           40 |
+| Sessional  |           50 |

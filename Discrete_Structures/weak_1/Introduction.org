@@ -1,0 +1,14 @@
+* Discrete Values
+Values without points.
+** Example
+Age, no. of chairs, etc.
+* Continous
+Values with points.
+** Example
+Temp, Weight
+* Things to get
+** Sets
+** Function
+** Logic
+** Theory
+** Combinatrics

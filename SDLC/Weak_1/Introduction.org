@@ -1,0 +1,25 @@
+* Stages to Developing a Software
+**** Software Requirement Specification
+1. Planning and Requirement Gathering
+2. Analysis
+**** Design Documents
+4. Design
+**** Devlopment and Deployment
+1. Development
+2. Testing
+3. Requirement
+4. Maintainance
+*** Componenets
+| SRS                        | Design             |
+|----------------------------+--------------------|
+| Scope                      | Objective          |
+| Objectives                 | ERD -> Artitecture |
+| Functional Requirement     | Database Digram    |
+| Non Functional Requirement | Class Diagram      |
+| Use Case Digram            | User Interface     |
+| Use Senario                | Test Case          |
+| Adopting Model             |                    |
+| Work Plan                  |                    |
+*** Approach:
+1. Database First Approach
+2. Coding First Approach
