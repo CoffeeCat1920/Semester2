@@ -1,0 +1,94 @@
+* Object-Oriented Programming (OOPS)
+  - OOPS is a programming structure that uses objects to design and organize code.
+
+* Class
+  - A class is a blueprint for creating objects in OOPS. It defines the properties (attributes) and behaviors (functions) that the objects of the class will have.
+
+* Object
+  - An object is an instance (copy) of a class. It represents a real-world entity defined by its class.
+
+* Attributes and Functions
+  - Attributes: Also known as properties or data members, attributes represent the data members of a class.
+  - Functions: Also known as methods, functions represent the behaviors or actions that objects of the class can perform.
+
+* C++ Code Block for a Person Class
+
+#+BEGIN_SRC cpp
+#include <iostream.h>
+#include <string.h>
+using namespace std;
+
+// class starts
+class Person {
+
+//private attributes
+private:
+    string name;
+    int age, noSiblings, personality;
+    bool relationShipStatus;
+
+public:
+
+    // A function to set all the variables.
+    void setter(string name, string personality, int age,int noSlblings, bool relationshipStatus)
+    {
+
+        // "*Person.variables" matlab ha ka hum upar private wala variables ha aur "Person" function ka local variables hai jo "setter" function ma hai. Majar dono ka naam same ha.
+
+        *Person.name = age;
+        *Persona.personality = personality;
+        *Person.age = age;
+        *Person.noSlblings = noSiblings;
+        *Person.relationshipStatus = relationshipStatus;
+    }
+
+}; //class end
+
+int main() {
+    // Ab hum person ki class jo hum na upar bani thi us sa aik object banata hai Ibrar ka nam ka.
+    Person Ibrar;
+    person.setter("Idrar", "Chawal", 18, 2, false);
+}
+#+END_SRC
+* Ap is ko ayasa dekho.
+#+BEGIN_SRC txt
++--------------------------+
+|        Main Program      |
++--------------------------+
+            |
+            v
++--------------------------+
+|     Create Person        |
+|          Object          |
+|      (Ibrar Instance)    |
++--------------------------+
+            |
+            v
++--------------------------+
+|       Call Setter        |
+|     and giving data      |
+|  ("Ibrar", "Chawal", 18, |
+|          2, false)       |
++--------------------------+
+            |
+            v
++--------------------------+
+|        Person Class      |
+|                          |
+|      +---------------+   |
+|      |   Attributes  |   |
+|      +---------------+   |
+|      |   name        |   |
+|      |   age         |   |
+|      |   noSiblings  |   |
+|      |   personality |   |
+|      |   relationship|   |
+|      +---------------+   |
+|                          |
+|      +---------------+   |
+|      |   Methods     |   |
+|      +---------------+   |
+|      |   setter()    |   |
+|      +---------------+   |
++--------------------------+
+#+END_SRC
