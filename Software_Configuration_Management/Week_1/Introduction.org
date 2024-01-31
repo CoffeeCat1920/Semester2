@@ -1,0 +1,7 @@
+| Management     | Configuration       |
+|----------------+---------------------|
+| Managing Tools | Making Api Commands |
+|----------------+---------------------|
+
+* Software Productivity:
+Managing teams to make efficent use of given timeline
