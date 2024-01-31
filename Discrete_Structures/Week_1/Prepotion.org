@@ -1,0 +1,23 @@
+* Prepotion
+A statement either true or false.
+** Example
+- This is a class.
+- I am happy. *VAGUE*
+
+  *NOTE:* Question are not prepsotion.
+*** Example
+- *Preposotion* It is raining.
+- *NOT* Is it raining?
+* Compound Preposition
+Combining preposition is compound prepsotion.
+** Example
+1. This is class.
+2. Today is Wednesday.
+*Compound Preposition:* This is class and today is Wednesday.
+** Operators
+1. *AND* ^
+2. *OR* v
+3. *NOT* upside down L
+*NOTE:*
+- -> imply
+- <-> if and only if
