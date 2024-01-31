@@ -17,7 +17,7 @@ Combining preposition is compound prepsotion.
 ** Operators
 1. *AND* ^
 2. *OR* v
-3. *NOT* upside down L
+3. *NOT* upside down ¬
 *NOTE:*
 - -> imply
 - <-> if and only if
