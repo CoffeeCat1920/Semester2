@@ -1,0 +1,28 @@
+*NOTE:* Itna mushkil nahi ha bas sir kha raha hai. Umed ha git sikho ga pora subject takreeban a jya ga.
+
+* Directory
+Another name for *Folder*.
+** Example
+This folder is in "Semester2/Software_Configuration_Management/Week_1".
+* Workspace
+A place to collaborate.
+** Example
+- Suppose there are three teams *T1, T2, T3*. They can use each other as *backups*.
+- This git repo.
+* Source/Code files
+*Directories* that have *all the code*.
+* Phases of CSM:
+** Identify
+Identifying things to update.
+** Baseline
+The most updated stable (working) version of the code.
+*** Example
+if we have v1, v2, *v3*, **v4**.
+if **v4** is latest but unstable then stabe *v3* version is baseline.
+** Change management
+To keep track of:
+- The change
+- Who made the change
+- When they made the change.
+** Configuration audit
+To make sure that the configuration is up to standards and is being used correctely.
