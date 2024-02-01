@@ -1,0 +1,29 @@
+* Process Models
+** Brute Force approach
+Without any plan.
+** Documented Driven approach
+With proper documentation and a planned approach. Following are some examples.
+*** Water Fall model
+Each steps come after other like a waterfall. Following are the steps:
+***** Communication
+1. Requirement Gathering : Defining user's requirement according to business.
+***** Non-Communication
+2. Design
+3. Devlopment
+4. Testing
+5. Deployment
+6. Maintenance
+**** Benefits
+- Stage approach help us to focus at one problem at a time.
+- Easy for begginer.
+**** Disadvantage
+- Lack of communication between programmer and *stake holder* (user/buyer).
+***** Updated model
+****** Communication
+1. Requirement
+2. Design
+3. Devlopment
+4. Testing
+****** Non-Communication
+5. Deployment
+6. Maintenance
