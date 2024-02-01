@@ -11,7 +11,7 @@ A place to collaborate.
 - This git repo.
 * Source/Code files
 *Directories* that have *all the code*.
-* Phases of CSM:
+* Phases of SCM:
 ** Identify
 Identifying things to update.
 ** Baseline
