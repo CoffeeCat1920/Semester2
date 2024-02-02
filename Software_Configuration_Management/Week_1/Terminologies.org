@@ -26,3 +26,10 @@ To keep track of:
 - When they made the change.
 ** Configuration audit
 To make sure that the configuration is up to standards and is being used correctely.
+* Managing different version
+- Suppose we are working on two files *f1* and *f2*, after some times we add another *f3* into the project.
+- After making the change it becomes a new *branch* is made in the *git*.
+- The third step is to add the new brach to our original branch through a process called *merging*.
+  [[file:./../../assets/notesImages/SCM/merge.jpg]]
+- The original version was called *v1* and changes to *v2* as shown below.
+  [[file:./../../assets/notesImages/SCM/mergeBlock.jpg]]
