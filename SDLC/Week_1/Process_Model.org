@@ -4,6 +4,7 @@ Without any plan.
 ** Documented Driven approach
 With proper documentation and a planned approach. Following are some examples.
 *** Water Fall model
+[[file:./../../assets/notesImages/SDLC/waterFallMethod.jpg]]
 Each steps come after other like a waterfall. Following are the steps:
 ***** Communication
 1. Requirement Gathering : Defining user's requirement according to business.
