@@ -6,8 +6,8 @@ A statement either true or false.
 
   *NOTE:* Question are not prepsotion.
 *** Example
-- *Preposotion* It is raining.
-- *NOT* Is it raining?
+- *This is a Preposotion.* It is raining.
+- *This is NOT a preposition* Is it raining?
 * Compound Preposition
 Combining preposition is compound prepsotion.
 ** Example

@@ -1,0 +1,11 @@
+* Previous Revision
+** Diaadvantage of Waterfall Model
+The main disadvantage is that the *stake holder* is only involved at the first step causing a lack of commmunication.
+* Software Requirement Document
+A doucument that shows the requirement of the software.
+** Discussion points
+1. Scope
+2. Functional Requirements and Non-functional Requirements
+3. Use Case Diagram
+4. User Sinaio
+5. Adopted Methodology
