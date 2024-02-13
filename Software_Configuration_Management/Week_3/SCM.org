@@ -1,0 +1,19 @@
+* Devision of SCM
+SCM is devided into the following parts.
+1. Version Control
+2. Projects Managements
+** Version Control
+There are two types of version control.
+*** 1. Centerlized Version control
+There is *one* single repository in Centerlized Version control.
+*** 2. Decentrlize Version control
+There are *multiple* repositories. Everyone will have their own version of the repository in local machine.
+** Merging
+Combining two branches together.
+** Git Commands
+| Commands | Use                                                      |
+|----------+----------------------------------------------------------|
+| clone    | copying the repository on your own machine               |
+| init     | initilize a new repository                               |
+| commit   | commiting the change to the main repository.             |
+|          | *Commitment gaisa ap commit ment karto ha kisa ka sath.* |

@@ -16,7 +16,7 @@ public:
 
   // class function
    void printVar1() {
-      std::cout << n << std::endl;
+      std::cout << var1 << std::endl;
     }
 };
 
@@ -25,6 +25,10 @@ int main() {
   exp.printVar1();
 }
 #+END_SRC
+
+#+RESULTS:
+: 2
+
 ** Types of Constructor
 *** 1. Default Constructor
 Automatically made constructure made by the compiler.
@@ -34,6 +38,9 @@ class Example {
   //....
 };
 #+END_SRC
+
+#+RESULTS:
+
 *** 2. Parameterless Constructor
 A constructure with no argument. It's used for initialization.
 #+BEGIN_SRC cpp
@@ -68,10 +75,12 @@ int main() {
 #+END_SRC
 **** Multiple constructure with function overloading.
 #+BEGIN_SRC cpp
+#include <iostream>
+
 class Example {
-public:
-  int var1;
 private:
+  int var1;
+public:
 
   // parameterless constructure
   Example() {
@@ -85,15 +94,17 @@ private:
 
   // normal function
    void printVar1() {
-      std::cout << n << std::endl;
+      std::cout << var1 << std::endl;
     }
 
 };
 
 int main() {
-  Example exp1();
+  Example exp1;
   Example exp2(2);
   exp1.printVar1();
   exp2.printVar1();
 }
 #+END_SRC
+
+#+RESULTS:
