@@ -1,0 +1,99 @@
+* Constructor
+A constructure is a special function of a class which has the same name as the class but *no return type*, not even void.
+A constructure is used to initialize data members, or assign the values to the data members.
+#+BEGIN_SRC cpp :results clang++
+#include <iostream>
+
+class Example {
+private:
+  int var1;
+public:
+
+  // constructure
+  Example(int n) {
+     var1 = n;
+   }
+
+  // class function
+   void printVar1() {
+      std::cout << n << std::endl;
+    }
+};
+
+int main() {
+  Example exp(2);
+  exp.printVar1();
+}
+#+END_SRC
+** Types of Constructor
+*** 1. Default Constructor
+Automatically made constructure made by the compiler.
+#+BEGIN_SRC cpp
+class Example {
+  // no constructure means default.
+  //....
+};
+#+END_SRC
+*** 2. Parameterless Constructor
+A constructure with no argument. It's used for initialization.
+#+BEGIN_SRC cpp
+class Example {
+public:
+  int var1;
+private:
+  // parameterless constructure
+  Example() {
+    var1 = 2;
+  }
+  //........
+};
+#+END_SRC
+*** 3. Parameterize Constructor
+A constructure with arguments. It's used to assign a value to the data memebers
+#+BEGIN_SRC cpp
+class Example {
+public:
+  int var1;
+private:
+  // parameterized constructure
+  Example(int n) {
+    var1 = n;
+  }
+  //........
+};
+int main() {
+  Example exp(2);
+  //........
+}
+#+END_SRC
+**** Multiple constructure with function overloading.
+#+BEGIN_SRC cpp
+class Example {
+public:
+  int var1;
+private:
+
+  // parameterless constructure
+  Example() {
+    var1 = 0;
+  }
+
+  // parameterized constructure
+  Example(int n) {
+    var1 = n;
+  }
+
+  // normal function
+   void printVar1() {
+      std::cout << n << std::endl;
+    }
+
+};
+
+int main() {
+  Example exp1();
+  Example exp2(2);
+  exp1.printVar1();
+  exp2.printVar1();
+}
+#+END_SRC

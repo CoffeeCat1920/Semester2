@@ -1,0 +1,17 @@
+* Intro
+The task is devided into small time frames called *sprints*. Each sprint lasts for almost 2-4 weeks.
+** The are three actors in this model
+1. Stake holder: The guy with the money.
+2. Scrum master: The guy with experience.
+3. Devlopment team: The team making the project.
+*** Terminologies
+**** Backlog
+The documentation of the completed work and problem faced during devlopments.
+**** Daily Scrum
+A daily meeting.
+**** Scrum Meeting
+Backlog is created in a meeting called scrum meetings.
+**** Scrum Retro
+Devlopment meeting about a whole sprint.
+**** Risk
+The percentage of uncompleted work which is doubled in every next step.
