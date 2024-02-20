@@ -108,3 +108,5 @@ int main() {
 #+END_SRC
 
 #+RESULTS:
+| 0 |
+| 2 |

@@ -1,0 +1,47 @@
+* Operator Overloading
+The process of defining c++ operators for classes or structs.
+** Limitation
+- Arity of operator overloading does not change. *Arity is the anount of operands it accepts.*
+- No new opertator is created.
+- Precedence of an operator can't be changed.
+- Associativity can't be changed. *The diection of solution.*
+** Example
+#+BEGIN_SRC cpp
+#include <iostream>
+
+// Definition of class
+class Student {
+private:
+  int marks;
+
+public:
+  // Constructor
+  Student(int marks) : marks(marks) {}
+
+  int getMarks() const {
+    return marks;
+  }
+
+  // Operator Overloading Function
+  Student operator+(const Student &obj) {
+    int temp_marks = this->marks + obj.marks;
+    return Student(temp_marks);
+  }
+};
+
+int main() {
+  Student s1(1);
+  Student s2(2);
+  Student s3(3);
+  s3 = s1 + s2 + s3;
+  std::cout << s3.getMarks() << std::endl;
+
+  return 0;
+}
+#+END_SRC
+
+#+RESULTS:
+: 6
+
+** Material
+[[https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm][Tutorials point]]
