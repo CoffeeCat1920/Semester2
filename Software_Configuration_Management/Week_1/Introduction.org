@@ -1,6 +1,6 @@
 * Software Productivity:
 Managing teams to make efficent use of given timeline
 
-| Management     | Configuration       |
+| Management     | Configuration       |.       
 |----------------+---------------------|
 | Managing Tools | Making Api Commands |
