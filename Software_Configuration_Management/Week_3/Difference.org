@@ -1,0 +1,9 @@
+* Difference between Centrilize and Decentralized Version Control
+| Decentrilized                               | Centrilized                                 |
+|---------------------------------------------+---------------------------------------------|
+| 1. Each Person has same copy of the project | 1. Each person has same view of the project |
+| 2. Commit is needed for sync.               | 2. Commit is not needed for sync.           |
+| 3. Anyone can clone each other repos.       | 3. It's not possible.                       |
+| 4. Complex structure.                       | 4. Relatively less complex.                 |
+** Drawbacks of Decentralized version comtrol
+1. Complex Structure.

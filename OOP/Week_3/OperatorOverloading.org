@@ -16,9 +16,10 @@ private:
 
 public:
   // Constructor
-  Student(int marks) : marks(marks) {}
+  Student(int marks){
+  }
 
-  int getMarks() const {
+  int getMarks(){
     return marks;
   }
 

@@ -1,0 +1,78 @@
+* Logical Operators
+1. Negation - *NOT*
+2. Conjuction - *AND*
+3. Disjunction - *OR*
+4. Inclusive OR
+5. Exclusive OR
+6. Integration - *p->q*
+7. Converse - *q->p*
+8. Inverse - *Not p -> Not q*
+9. Contrapositive - *NOT q -> NOT p*
+** Example
+p = It is sunny and it is raining.
+p is false
+** Inclusive OR
+Either one of the condition must be true or both of them should be true.
+*** Example
+To take any degree you should either take a math or statistics course.
+*** Truth table
+** Exclusive
+Only one will be true to give the right answer. It will return a false of both values are true.
+*** Example
+On a promotion you will either get a car or a raise.
+*** Truth table
+| p | q | p+q |
+|---+---+-----|
+| T | T | F   |
+| T | F | T   |
+| F | T | T   |
+| F | F | F   |
+** Integration - p->q
+Both condition are need to be true for output to be true.
+*** Example
+If you work hard you will succeed.
+If you have connections with seniors, you will get promoted.
+If you get 100% you will get a trophie.
+*** Truth Table
+| p | q | p->q |
+|---+---+------|
+| T | T | T    |
+| T | F | F    |
+| F | F | F    |
+| F | T | F    |
+** Implication (p -> q)
+If \( p \) is true, then \( q \) must also be true; otherwise, if \( p \) is false, the truth value of \( q \) is irrelevant.
+*** Truth Table
+| p | q | p -> q |
+|---|---|--------|
+| T | T | T      |
+| T | F | F      |
+| F | T | T      |
+| F | F | T      |
+** Converse (q -> p)
+If q is true, then p must also be true; conversely, if q is false, the truth value of p is irrelevant.
+*** Truth Table
+| p | q | q -> p |
+|---|---|--------|
+| T | T | T      |
+| T | F | T      |
+| F | T | F      |
+| F | F | T      |
+** Inverse (~p -> ~q)
+If p is false, then q must also be false; however, if p is true, the truth value of q is irrelevant.
+*** Truth Table
+| p | q | ~p -> ~q |
+|---|---|----------|
+| T | T | F        |
+| T | F | T        |
+| F | T | F        |
+| F | F | F        |
+** CONTRAPOSITIVEk (~q -> ~p)
+If q is false, then p must also be false; conversely, if q is true, the truth value of p is irrelevant.
+*** Truth Table
+| p | q | ~q -> ~p |
+|---|---|----------|
+| T | T | T        |
+| T | F | F        |
+| F | T | T        |
+| F | F | T        |
