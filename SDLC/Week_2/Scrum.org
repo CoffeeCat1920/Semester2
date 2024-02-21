@@ -1,17 +1,29 @@
-* Intro
-The task is devided into small time frames called *sprints*. Each sprint lasts for almost 2-4 weeks.
+* SCRUM
+Scrum emphasizes on breaking the project into small managable task to be completed within a time-frame.
 ** The are three actors in this model
-1. Stake holder: The guy with the money.
-2. Scrum master: The guy with experience.
-3. Devlopment team: The team making the project.
-*** Terminologies
+1. *Stake holder*: The person for whome the project is being made, mostely, and the person who is investing the money or providing the resources for the .
+2. *Scrum master*: The person who is managing the team working on the project, having knowledge about the status of all tasks and communicating it to the stake holder. They act as a communication bridge between the team and the stake holder.
+3. *Devlopment team*: The team making the project.
+** Terminologies
+Following are a few commonly used Terminologies in Scrum.
 **** Backlog
 The documentation of the completed work and problem faced during devlopments.
 **** Daily Scrum
-A daily meeting.
+These are daily 15 minutes meeting done in to announce the progress made towards scrum goals and the problems hindering the process.
+*NOTE: A member can into a "breakout session" to furthur evaluate their points.*
 **** Scrum Meeting
-Backlog is created in a meeting called scrum meetings.
+The Backlog is reveised and prioritized for future scrums based on the daily scrum meetings.
 **** Scrum Retro
-Devlopment meeting about a whole sprint.
+A sprint retrospective is a separate meeting that allows team members to internally analyze strengths and weaknesses of the sprint, future areas of improvement, and continuous process improvement actions.
 **** Risk
-The percentage of uncompleted work which is doubled in every next step.
+The percentage of uncompleted work which is double.
+** Dificulties
+- Increased complexity
+- Decreased cohesion
+- Decreased maintainability
+- Difficult to meet customer requirment
+- Difficult to document
+- Increased Devlopment time.
+** Advantages
+- Regular interaction between the team and the stakeholder.
+- We have an approx timeline of the project.

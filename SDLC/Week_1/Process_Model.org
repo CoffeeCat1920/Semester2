@@ -1,25 +1,36 @@
 * Process Models
 ** Brute Force approach
-Without any plan.
+Developing a software without a plan.
 ** Documented Driven approach
-With proper documentation and a planned approach. Following are some examples.
-*** Water Fall model
+Developing a software with proper documentation and a planned approach.
+**** Example
+***** Water Fall model
 [[file:./../../assets/notesImages/SDLC/waterFallMethod.jpg]]
-Each steps come after other like a waterfall. Following are the steps:
-***** Communication
-1. Requirement Gathering : Defining user's requirement according to business.
-***** Non-Communicatio
+Waterfall model follows a step by step approach. Where each steps come after other like a waterfall.
+****** Steps
+1. Requirement
 2. Design
 3. Devlopment
 4. Testing
 5. Deployment
 6. Maintenance
-**** Benefits
+****** Benefits
 - Stage approach help us to focus at one problem at a time.
 - Easy for begginer.
-**** Disadvantage
-- Lack of communication between programmer and *stake holder* (user/buyer).
+****** Disadvantage
+- Lack of communication between programmer and *stake holder* (user/buyer) as the communication happens in only first step of the process.
+******** Communication
+1. Requirement
+******** Without Communication
+2. Design
+3. Devlopment
+4. Testing
+5. Deployment
+6. Maintenance
+
+
 ***** Updated model
+It has the same basic steps
 ****** Communication
 1. Requirement
 2. Design
