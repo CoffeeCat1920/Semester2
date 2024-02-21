@@ -1,4 +1,4 @@
-* Lgical Operators
+* Logical Operators
 1. Negation - *NOT*
 2. Conjuction - *AND*
 3. Disjunction - *OR*
@@ -40,22 +40,39 @@ If you get 100% you will get a trophie.
 | T | F | F    |
 | F | F | F    |
 | F | T | F    |
-** Implication
-If it rains today I will bring an umbrella.
-If you study hard you will get good grades.
-*** Truth table
-
-** Converse
-If I bring umbrella it will rain today.
-If you will get good grades you will study hard.
+** Implication (p -> q)
+If \( p \) is true, then \( q \) must also be true; otherwise, if \( p \) is false, the truth value of \( q \) is irrelevant.
 *** Truth Table
-
-** Inverse
-If it does not rain today I will not bring umbrella.
-If you don't study hard you will not get good grades.
+| p | q | p -> q |
+|---|---|--------|
+| T | T | T      |
+| T | F | F      |
+| F | T | T      |
+| F | F | T      |
+** Converse (q -> p)
+If q is true, then p must also be true; conversely, if q is false, the truth value of p is irrelevant.
 *** Truth Table
-
-** Contrapositive
-If I donot bring umbrella it will not rain today.
-If you will not get good grades you will not study hard.
+| p | q | q -> p |
+|---|---|--------|
+| T | T | T      |
+| T | F | T      |
+| F | T | F      |
+| F | F | T      |
+** Inverse (~p -> ~q)
+If p is false, then q must also be false; however, if p is true, the truth value of q is irrelevant.
 *** Truth Table
+| p | q | ~p -> ~q |
+|---|---|----------|
+| T | T | F        |
+| T | F | T        |
+| F | T | F        |
+| F | F | F        |
+** CONTRAPOSITIVEk (~Qu -> )
+If q is false, then p must also be false; conversely, if q is true, the truth value of p is irrelevant.
+*** Truth Table
+| p | q | ~q -> ~p |
+|---|---|----------|
+| T | T | T        |
+| T | F | F        |
+| F | T | T        |
+| F | F | T        |
