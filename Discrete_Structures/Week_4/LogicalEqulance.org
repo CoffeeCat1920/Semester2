@@ -1,0 +1,3 @@
+* Logical Equilance
+"Two conditions are logically equilant if both of them have *same truth table*"
+** Example

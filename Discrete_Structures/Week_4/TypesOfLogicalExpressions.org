@@ -1,0 +1,24 @@
+* Types of Logical Expression
+Following are the types of logical expression.
+** Tautology
+"A logical expresstion which is true for all the possible values."
+*** Example
+** Contridiction
+"A compound logical expression which is false for all the possible values."
+*** Example
+** Contingency
+"An expression with mixed solutions."
+*** Example
+** Statisfibility
+"An expression with atleast one true answer."
+*** Example
+pvq
+** Unstasifybility
+"Atleast one is false."
+*** Example
+pvq
+** Valid
+"Which is always and always true."
+*NOTE: It's somehow different from Totology.*
+** Unvalid
+"Which is contridiction and contigency."

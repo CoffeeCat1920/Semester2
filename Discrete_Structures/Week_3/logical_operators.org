@@ -8,7 +8,7 @@
 7. Converse - *q->p*
 8. Inverse - *Not p -> Not q*
 9. Contrapositive - *NOT q -> NOT p*
-** Example
+*** Example
 p = It is sunny and it is raining.
 p is false
 ** Inclusive OR
@@ -67,7 +67,7 @@ If p is false, then q must also be false; however, if p is true, the truth value
 | T | F | T        |
 | F | T | F        |
 | F | F | F        |
-** CONTRAPOSITIVEk (~q -> ~p)
+** Contrapositive (~q -> ~p)
 If q is false, then p must also be false; conversely, if q is true, the truth value of p is irrelevant.
 *** Truth Table
 | p | q | ~q -> ~p |
@@ -76,3 +76,17 @@ If q is false, then p must also be false; conversely, if q is true, the truth va
 | T | F | F        |
 | F | T | T        |
 | F | F | T        |
+** Biconditional Operators (p<->q)
+"It will only return true if both conditions are same."
+*** Example
+- A triangle have three angle if all of them add up to 180 degrees.
+- A quadratrel is a square if all angles are 90 degree and sides equal.
+- Today is Wednesday if and only if tommorow was Tuesday and yesterday was Thursday
+- You will pass the exam if and only if you have minimum 50 marks. :(
+*** Truth Table
+| p | q | p<->q |
+|---+---+-------|
+| T | T | T     |
+| T | F | F     |
+| F | T | F     |
+| F | F | T     |

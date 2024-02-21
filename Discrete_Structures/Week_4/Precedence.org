@@ -1,0 +1,7 @@
+* Logical precedence
+NOT
+AND
+OR
+->
+<-
+<->
