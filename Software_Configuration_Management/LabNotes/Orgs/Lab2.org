@@ -1,0 +1,14 @@
+* Lab-2
+#+NAME: Wahab Ahmad
+#+ROLL NO: 004
+
+* Creating a branch
+1. Navigate to the repo you want to branch.
+2. Go to the *Branches* options.
+3. Creat new branches by cliking on *New branches* button.
+* Merging the branches
+1. Switch the branch in the repo.
+2. Make the changes.
+3. Make changes the making a pull request and accepting the request.
+* Deleting
+1. Simply click on the delete the branch by clicking on the delete button.
