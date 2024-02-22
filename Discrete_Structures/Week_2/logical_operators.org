@@ -2,9 +2,9 @@
 1. Negation - *NOT*
 2. Conjuction - *AND*
 3. Disjunction - *OR*
-4. Inclusive OR
-5. Exclusive OR
-6. Integration - *p->q*
+4. Inclusive OR -
+5. Exclusive OR - *⨁*
+6. Implication - *p->q*
 7. Converse - *q->p*
 8. Inverse - *Not p -> Not q*
 9. Contrapositive - *NOT q -> NOT p*
@@ -35,19 +35,6 @@ On a promotion you will either get a car or a raise.
 | F | T | T       |
 | F | F | F       |
 
-*** Integration - p->q
-Both conditions need to be true for the output to be true.
-**** Example
-If you work hard you will succeed.
-
-**** Truth Table
-| p | q | p->q |
-|---|---|------|
-| T | T | T    |
-| T | F | F    |
-| F | F | F    |
-| F | T | F    |
-
 *** Implication (p -> q)
 If p is true, then q must also be true; otherwise, if p is false, the truth value of q is irrelevant.
 **** Truth Table
@@ -57,7 +44,6 @@ If p is true, then q must also be true; otherwise, if p is false, the truth valu
 | T | F | F      |
 | F | T | T      |
 | F | F | T      |
-
 *** Converse (q -> p)
 If q is true, then p must also be true; conversely, if q is false, the truth value of p is irrelevant.
 **** Truth Table
@@ -67,7 +53,6 @@ If q is true, then p must also be true; conversely, if q is false, the truth val
 | T | F | T      |
 | F | T | F      |
 | F | F | T      |
-
 *** Inverse (~p -> ~q)
 If p is false, then q must also be false; however, if p is true, the truth value of q is irrelevant.
 **** Truth Table
@@ -77,7 +62,6 @@ If p is false, then q must also be false; however, if p is true, the truth value
 | T | F | T        |
 | F | T | F        |
 | F | F | F        |
-
 *** Contrapositive (~q -> ~p)
 If q is false, then p must also be false; conversely, if q is true, the truth value of p is irrelevant.
 **** Truth Table
