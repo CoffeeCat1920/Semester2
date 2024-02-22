@@ -1,5 +1,5 @@
 * MARI GUZARISH:
-Ap sab apna notes wagara bhi *push request* sa notes bhi bhajay. Is sa ap ko git use karna bhi aya agar ma kabhi absent hua to bhi notes paray ho.
+Ap sab apna notes wagara bhi *push request* sa notes bhi bhajay. Is sa ap ko git use karna bhi aya agar ma kabhi absent hua to bhi notes paray ho ok.
 Is ka alawa mara notes ap sab ba fikar ho kar use karay.
 
 *NOTES:* AI notes are discouraged but allowed.
