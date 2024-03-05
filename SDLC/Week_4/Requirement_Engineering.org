@@ -1,0 +1,31 @@
+* Requirement's Engineering
+*** Gathering
+*** Analysis:
+1. Verification
+2. Validation
+3. Applicate
+4. Budget
+** Gathering
+** Use Case Diagram
+** Types of Functional Requirements
+Following are the types of requirements:
+*** 1. Functional
+The main requirements, without them the application is incomplete.
+*** 2. Non-functional Requirement
+The micilinious requirements of the user.
+*** 3. Business Requirement
+*N*
+*** 4. Stakeholder Analysis
+The requirement of the stakeholder.
+*** 5. User Requirement
+The requirements of the user.
+*** 6. Systems Requirements
+The tools required to create the application.
+*** 7. Derived Requirement
+The requirement that are not actaully said by the user but are derived from the other requirements, without these the other requrements can't be full filled.
+* SRS (SOFTWARE REQUIREMENT SPECIFICAION)
+Following are the steps of SRS
+1. Functional Requirement
+2. Non-Functional Requirement
+3. UseCase Diagram
+4. User Sinario

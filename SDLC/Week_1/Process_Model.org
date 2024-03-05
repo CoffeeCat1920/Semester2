@@ -27,8 +27,6 @@ Waterfall model follows a step by step approach. Where each steps come after oth
 4. Testing
 5. Deployment
 6. Maintenance
-
-
 ***** Updated model
 It has the same basic steps
 ****** Communication
@@ -37,5 +35,5 @@ It has the same basic steps
 3. Devlopment
 4. Testing
 ****** Non-Communication
-5. Deployment
-6. Maintenance
+1. Deployment
+2. Maintenance

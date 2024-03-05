@@ -1,0 +1,31 @@
+* Reational Overloading
+- Overloading relational Operators is called *Relational Overloading*
+- It always returns a *bool* output
+** Example
+#+BEGIN_SRC C++
+#include <iostream>
+
+class Number {
+private:
+        int value;
+public:
+        Number(int x) {
+            value = x;
+        }
+        int getValue() {
+            return value;
+        }
+        bool operator < (Number &n) const {
+            return (value < n.value);
+        }
+};
+int main() {
+    Number number1(5);
+    Number number2(4);
+    std::cout << (number1 < number2);
+    return 0;
+}
+#+END_SRC
+
+#+RESULTS:
+: 0

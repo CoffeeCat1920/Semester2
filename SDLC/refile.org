@@ -1,0 +1,83 @@
+* Drawing a use case diagram
+** An Example Use Case
+*** Diagram
+*** Usage sinario
+**** Sign-up
+- *Name:* Singn Up
+- *Usage ID*: 0001
+- *Description*: Register User
+- *Authority*: User
+- *Precondition*:
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+- *Action*:
+  1. Enter User-id
+  2. Enter password
+  3. Click on submit
+- *Postcondition*: User is registered
+- *Exception*:
+  1. Validation Errors
+- *Alternate Path*: Cancel Button
+- *Author*: Us
+**** Login
+- *Name:* Login
+- *Description:* login
+- *Authority:* Customer & Admin
+- *Precondition:*
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+- *Action:*
+  1. Chose a user type.
+  2. Enter id and password.
+  3. Click on *Login* button.
+- *Postcondition:*
+  1. If user is valid, navigate to homepage.
+- *Exception:*
+  - Wrong username or password
+- *Alternate:*
+  - Forget Password
+  - Sign-up
+- *Author:* Us
+**** Add
+- *Name:* Add
+- *Description:* Add an id
+- *Authority:* Admin
+- *Precondition:*
+  - Adimin is Login
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+- *Action:*
+  - Add products details.
+  - Click on submit button.
+- *Postcondition:*
+  - Item is added.
+- *Exception:*
+  - Product already exists
+  - Memory Size exception.
+- *Alternate:*
+  - Cancel
+- *Author:* Us
+**** View
+- *Name:* View
+- *Description:* View a product
+- *Authority:* Admin
+- *Precondition:*
+  - Adimin is Login
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+  - Product exists.
+- *Action:*
+  - Chose a product.
+  - Click View.
+- *Postcondition:*
+  - Item is added.
+- *Exception:*
+  - NULL refrence. *Doesn'r exits in DB.*
+- *Alternate:*
+  - Edit
+  - Delete
+- *Author:* Us
