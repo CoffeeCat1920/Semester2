@@ -1,0 +1,4 @@
+* Actors in SCM
+All the entities related to a project.
+* Devide and Conquer
+Deviding a project into small manageable parts in called *Devide and Conquer* strategy.

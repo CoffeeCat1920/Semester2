@@ -1,0 +1,37 @@
+* Friend Functions
+- A friend fnction that can take a private part of a class.
+- A friend function is  not a part of the class.
+- A class can declare a friend function anywhere.
+- It breaks the rule of encapsulation.
+** Example
+#+begin_src cpp
+#include <iostream>
+
+class Example {
+private:
+        int value;
+public:
+  Example() {
+   value = 0;
+  }
+  Example(int n) {
+    value = n;
+  }
+  friend void friendly(Example n);
+};
+
+void friendly(Example n) {
+  std::cout << n.value << std::endl;
+  return;
+}
+
+int main() {
+  Example exp(10);
+  friendly(exp);
+  return 0;
+}
+
+#+end_src
+
+#+RESULTS:
+: 11
