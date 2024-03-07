@@ -1,0 +1,78 @@
+* Crud operation
+- It's the list of features of a *e-commers applications*.
+- It stands for *Create, Read, Update, Delete*.
+*** Operations
+**** (Read) Search Products
+- *Name:* search
+- *Id:* 3
+- *Description:* Admin wants to search a product.
+- *Authority:* Admin
+- *Precondition:*
+  - Adimin is Login
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+- *Action:*
+  - Admin go to search page.
+  - Types terms in box.
+  - Terms are searched from the database.
+- *Postcondition:*
+  - Similar items are listed.
+- *Exception:*
+  - DB connection lost.
+  - NULL refrence.
+- *Alternate:*
+  - Cancel
+- *Author:* Us
+**** (Update) Edit Products
+- *Name:* Edit
+- *Id:* 3
+- *Description:* Admin wants to edit a product.
+- *Authority:* Admin
+- *Precondition:*
+  - Adimin is Login
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+  - Product exists.
+- *Action:*
+  - Admin views Product list.
+  - Select product by id.
+  - Click Edit button.
+  - Click on save.
+- *Postcondition:*
+  - Item is edited.
+- *Exception:*
+  - DB connection lost.
+  - Null refrence.
+- *Alternate:*
+  - Edit
+  - Delete
+- *Author:* Us
+**** Delete Products
+- *Name:* Delete
+- *Id:* 4
+- *Description:* Admin wants to delete a product.
+- *Authority:* Admin
+- *Precondition:*
+  - Adimin is Login
+  - DB is connected
+  - Business logics are correct.
+  - GUI is avaliable.
+  - Product exists.
+- *Action:*
+  - Admin views Product list.
+  - Select product by id.
+  - Click Delete button.
+  - Confirm the deletion *Yes/No*.
+  - Click on *yes* button.
+- *Postcondition:*
+  - Item is deleted.
+- *Exception:*
+  - DB connection lost.
+  - Null refrence.
+- *Alternate:*
+  - Delete
+- *Author:* Us
+** Diagram
+[[file:./../../assets/flowcharts/pngs/SDLC-add_product.png]]
