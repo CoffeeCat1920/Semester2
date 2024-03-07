@@ -1,0 +1,6 @@
+* Folking
+- Folking means to make a personal copy of a repository for yourself.
+- They can be merged into main just like a branch.
+* Conflict
+When two branches having made changes on the same place try to commit to one branch.
+[[./../../assets/flowcharts/git_conflict.png]]
