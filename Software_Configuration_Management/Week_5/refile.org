@@ -2,3 +2,14 @@
 All the entities related to a project.
 * Devide and Conquer
 Deviding a project into small manageable parts in called *Devide and Conquer* strategy.
+*Following are the different actors in a project.*
+** Developer
+The person responsible fro programming.
+** Build Manager
+The person responsible for making the executable file.
+** Documentation Team
+The Person responsible for documenting the programm in devlopment.
+** Project Manager
+The people who manage the project.
+** End User
+Uses the application.
