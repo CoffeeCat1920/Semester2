@@ -1,0 +1,138 @@
+% Created 2024-03-06 Wed 19:40
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{ok}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={ok},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Constructor}
+\label{sec:orgf41e696}
+A constructure is a special function of a class which has the same name as the class but \textbf{no return type}, not even void.
+A constructure is used to initialize data members, or assign the values to the data members.
+\begin{verbatim}
+#include <iostream>
+
+class Example {
+private:
+  int var1;
+public:
+
+  // constructure
+  Example(int n) {
+     var1 = n;
+   }
+
+  // class function
+   void printVar1() {
+      std::cout << var1 << std::endl;
+    }
+};
+
+int main() {
+  Example exp(2);
+  exp.printVar1();
+}
+\end{verbatim}
+\subsection{Types of Constructor}
+\label{sec:org50e0083}
+\subsubsection{1. Default Constructor}
+\label{sec:orgfa1001e}
+Automatically made constructure made by the compiler.
+\begin{verbatim}
+class Example {
+  // no constructure means default.
+  //....
+};
+\end{verbatim}
+\subsubsection{2. Parameterless Constructor}
+\label{sec:org9223256}
+A constructure with no argument. It's used for initialization.
+\begin{verbatim}
+class Example {
+public:
+  int var1;
+private:
+  // parameterless constructure
+  Example() {
+    var1 = 2;
+  }
+  //........
+};
+\end{verbatim}
+\subsubsection{3. Parameterize Constructor}
+\label{sec:orgd96217c}
+A constructure with arguments. It's used to assign a value to the data memebers
+\begin{verbatim}
+class Example {
+public:
+  int var1;
+private:
+  // parameterized constructure
+  Example(int n) {
+    var1 = n;
+  }
+  //........
+};
+int main() {
+  Example exp(2);
+  //........
+}
+\end{verbatim}
+\begin{enumerate}
+\item Multiple constructure with function overloading.
+\label{sec:orgd199d47}
+\begin{verbatim}
+#include <iostream>
+
+class Example {
+private:
+  int var1;
+public:
+
+  // parameterless constructure
+  Example() {
+    var1 = 0;
+  }
+
+  // parameterized constructure
+  Example(int n) {
+    var1 = n;
+  }
+
+  // normal function
+   void printVar1() {
+      std::cout << var1 << std::endl;
+    }
+
+};
+
+int main() {
+  Example exp1;
+  Example exp2(2);
+  exp1.printVar1();
+  exp2.printVar1();
+}
+\end{verbatim}
+\end{enumerate}
+\end{document}

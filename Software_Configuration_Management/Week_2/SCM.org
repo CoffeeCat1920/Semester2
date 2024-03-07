@@ -8,12 +8,27 @@ There are two types of version control.
 There is *one* single repository in Centerlized Version control.
 *** 2. Decentrlize Version control
 There are *multiple* repositories. Everyone will have their own version of the repository in local machine.
-** Merging
-Combining two branches together.
+** Perpouse of Version Control
+*** a. History Tracking
+The process of tracking all the changes taking place in a project is called history tracking.
+*** Collaboration
+Allowing different people to work on the same project at the same time.
+*** Code Integrity
+It maintain the integrety of the code as their is a record of all the commits taking place.
+*** Branching and Merging
+- Branching:
+    A branch is a seprate line of devlopment of a project.
+- Merging
+    The process of combining all branches together is called merging.
+** Benefits:
+a. Collaboration
+b. History
+c. Conflict Resolution
+d. Risk Minimization
 ** Git Commands
 | Commands | Use                                                      |
 |----------+----------------------------------------------------------|
 | clone    | copying the repository on your own machine               |
 | init     | initilize a new repository                               |
 | commit   | commiting the change to the main repository.             |
-|          | *Commitment gaisa ap commit ment karto ha kisa ka sath.* |
+|          | *Commitment gaisa ap commitment karto ha kisa ka sath.*  |

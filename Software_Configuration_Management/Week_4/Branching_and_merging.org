@@ -1,0 +1,21 @@
+* Types of Branches
+** Features Branch
+- Creating a branch for each feature to develop.
+- Independent testing for each feature.
+- We can merge all the branches back to the main branch.
+** Release Branch
+- The branch of the soecific release version.
+- Having all the fixes and ensuring stability.
+** Hoofix Branch
+- The branch that is made to solve critical bugs.
+- It's also pushed back to the main branch.
+* Types of mering
+** Fast Forward Merging
+- Merging a branch by advancing the branch pointer without creating a new branch.
+    [[file:./../../assets/TypesOfMerging/fast.png]]
+** Squash Merging
+- Combing all the commits from a feature branch into a single branch and merging it back to main.
+    [[file:./../../assets/TypesOfMerging/squash.png]]
+** Pull request and Code Review Merging
+- Changes are reviewed through pull request.
+- Developers of seprate branch request merge to the main branch.

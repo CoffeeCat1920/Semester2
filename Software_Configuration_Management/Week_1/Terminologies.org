@@ -33,3 +33,12 @@ To make sure that the configuration is up to standards and is being used correct
   [[file:./../../assets/notesImages/SCM/merge.jpg]]
 - The original version was called *v1* and changes to *v2* as shown below.
   [[file:./../../assets/notesImages/SCM/mergeBlock.jpg]]
+* Essential Elements of Configuration Management
+** Change Management
+The process of proposing reviewing and approving changes in the codebase.
+** Configuration Management
+The process of managing the settings if the enviromenth that your software runs on.
+** Automation
+Automating repetative tasks like build, tests deployment, etc.
+** Callaboration
+Allowing different team members to collaborate on a single project.

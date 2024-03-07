@@ -5,5 +5,9 @@
 | 2. Commit is needed for sync.               | 2. Commit is not needed for sync.           |
 | 3. Anyone can clone each other repos.       | 3. It's not possible.                       |
 | 4. Complex structure.                       | 4. Relatively less complex.                 |
-** Drawbacks of Decentralized version comtrol
-1. Complex Structure.
+** Drawbacks of Decentralized version control
+1. Complex Structure
+2. Potential for code divergence
+** Drawbacks of Centrilized version control
+1. Server can become bottlenecked specially in case of large teams.
+2. Constant depenedency on the network.
