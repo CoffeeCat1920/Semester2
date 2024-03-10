@@ -1,3 +1,4 @@
+#+TITLE: Constructures and their type
 * Constructor
 A constructure is a special function of a class which has the same name as the class but *no return type*, not even void.
 A constructure is used to initialize data members, or assign the values to the data members.
@@ -28,9 +29,8 @@ int main() {
 
 #+RESULTS:
 : 2
-
 ** Types of Constructor
-*** 1. Default Constructor
+*** Default Constructor
 Automatically made constructure made by the compiler.
 #+BEGIN_SRC cpp
 class Example {
@@ -41,7 +41,7 @@ class Example {
 
 #+RESULTS:
 
-*** 2. Parameterless Constructor
+*** Parameterless Constructor
 A constructure with no argument. It's used for initialization.
 #+BEGIN_SRC cpp
 class Example {
@@ -55,7 +55,7 @@ private:
   //........
 };
 #+END_SRC
-*** 3. Parameterize Constructor
+*** Parameterize Constructor
 A constructure with arguments. It's used to assign a value to the data memebers
 #+BEGIN_SRC cpp
 class Example {
