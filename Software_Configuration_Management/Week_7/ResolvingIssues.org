@@ -1,0 +1,5 @@
+#+TITLE: Resolving issues
+#+AUTHOR: WAHAB AHMAD
+* How conflict happen
+Conflict happen when two people edit the same part of a repo on different branches and try merging them to a single branch.
+[[./../../assets/flowcharts/git_conflict.png]]

@@ -1,0 +1,3 @@
+#+TITLE: Homophones
+The words having same pronunciation but different sense.
+*Example* cent-sent, brake-break.

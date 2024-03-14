@@ -1,7 +1,7 @@
 * Logical precedence
-NOT
-AND
-OR
-->
-<-
-<->
+1. NOT
+2. AND
+3. OR
+4. ->
+5. <-
+6. <->

@@ -1,0 +1,6 @@
+#+TITLE: Meanings and Types
+Following are the two types of meanings:
+1. Contextual:
+   The meaning given according to the given situation.
+2. Literal:
+   The meaning given according to actual meaning of the word.

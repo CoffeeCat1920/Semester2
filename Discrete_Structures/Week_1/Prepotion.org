@@ -3,7 +3,6 @@ A statement either true or false.
 ** Example
 - This is a class.
 - I am happy. *VAGUE*
-
   *NOTE:* Question are not prepsotion.
 *** Example
 - *This is a Preposotion.* It is raining.
@@ -17,7 +16,7 @@ Combining preposition is compound prepsotion.
 ** Operators
 1. *AND* ^
 2. *OR* v
-3. *NOT* upside down ¬
+3. *NOT* ¬
 *NOTE:*
 - -> imply
 - <-> if and only if

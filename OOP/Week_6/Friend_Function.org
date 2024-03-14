@@ -1,3 +1,4 @@
+#+TITLE: Friend Functoion
 * Friend Functions
 - A friend fnction that can take a private part of a class.
 - A friend function is  not a part of the class.

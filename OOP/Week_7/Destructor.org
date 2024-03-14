@@ -1,0 +1,36 @@
+#+TITLE: Destructor
+* Introduction
+- A destructor is opposite of a constructor.
+- Its used to free the excess memory of a class.
+- It's used to free the dynamic memeory used by a class.
+- It *can't be overloaded*.
+** Examples
+**** List by using dynamic memory
+An overly convoluted example.
+#+begin_src cpp
+#include <iostream>
+
+class Example {
+private:
+        int val;
+        // an integer pointer variable pointing towards an integer.
+        int* obj;
+public:
+        // constructor
+        Example() {
+            obj = new int[5];
+        }
+        // destructor
+        ~Example() {
+            delete[] obj;
+        }
+};
+
+int main() {
+        // calling A constructor
+        Example *example = new Example();
+        // now the destructor will be called
+        delete example;
+        return 0;
+}
+#+end_src
