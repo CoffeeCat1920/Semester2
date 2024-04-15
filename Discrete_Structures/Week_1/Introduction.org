@@ -9,6 +9,6 @@ Temp, Weight
 * Things to get
 1. Sets
 2. Function
-3.  Logic
+3. Logic
 4. Theory
 5. Combinatrics

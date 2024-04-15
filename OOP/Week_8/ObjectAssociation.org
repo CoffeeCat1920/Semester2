@@ -1,0 +1,80 @@
+* Object Association
+Following are the types of object associations:
+1. Simple
+   - One Way 
+   - Two Way -
+   - N array ◇
+2. Aggregation ◇
+   - Weaker Relationship
+   - A relation where objects can exist independently.
+   - Unfilled dimond for symbol
+3. Composition ◆
+   - Stronger relation
+   - A relation where objects can't exist independently.
+   - Filled dimond
+* Inheritance
+*Consider the follwing objects with attributes:*
+1. *Student*
+#+begin_src cpp
+
+int id;
+string name;
+int age;
+string progam;
+
+study();
+eat();
+walk();
+
+#+end_src
+2. *Doctor*
+#+begin_src cpp
+
+int id;
+string name;
+int age;
+string progam;
+
+cure();
+eat();
+walk();
+
+#+end_src
+3. *Teacher*
+#+begin_src cpp
+
+int id;
+string name;
+int age;
+string progam;
+
+teach();
+eat();
+walk();
+
+#+end_src
+In the above example we have some common attributes which we can combine into a single *Person* class. From which all the other classes can inherit the attributes.
+1. *Person:*
+#+begin_src cpp
+
+int id;
+string name;
+int age;
+string progam;
+
+eat();
+walk();
+
+#+end_src
+    1. Student
+       #+begin_src cpp
+study();
+       #+end_src
+    2. Doctor
+       #+begin_src cpp
+cure();
+       #+end_src
+    3. Teacher
+       #+begin_src cpp
+teach();
+       #+end_src

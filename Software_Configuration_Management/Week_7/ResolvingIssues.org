@@ -3,3 +3,7 @@
 * How conflict happen
 Conflict happen when two people edit the same part of a repo on different branches and try merging them to a single branch.
 [[./../../assets/flowcharts/git_conflict.png]]
+* List:
+1. Cucummber
+2. Ballon
+3. Cocunut oil
